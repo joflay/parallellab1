@@ -1,6 +1,8 @@
 #!/bin/bash
-
-module load intel/2022a
+module load GCC/11.3.0
+module load GCC/12.2.0
+module load NVHPC/22.7-CUDA-11.7.0
+module load OpenMPI/4.1.4
 module load CMake/3.12.1
 module load GCCcore/12.2.0
 module load PAPI/7.0.1
