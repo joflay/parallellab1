@@ -1,0 +1,68 @@
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) zlib/1.2.12
+
+The following have been reloaded with a version change:
+  1) GCC/11.3.0 => GCC/12.2.0             3) binutils/2.38 => binutils/2.39
+  2) GCCcore/11.3.0 => GCCcore/12.2.0
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) zlib/1.2.12
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.2.0 => GCCcore/11.3.0     2) binutils/2.39 => binutils/2.38
+
+
+Inactive Modules:
+  1) NCCL/2.12.12-CUDA-11.7.0        7) XZ/5.2.5
+  2) PMIx/4.1.2                      8) hwloc/2.7.1
+  3) UCC-CUDA/1.0.0-CUDA-11.7.0      9) libfabric/1.15.1
+  4) UCC/1.0.0                      10) libpciaccess/0.16
+  5) UCX-CUDA/1.12.1-CUDA-11.7.0    11) libxml2/2.9.13
+  6) UCX/1.12.1                     12) numactl/2.0.14
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) GDRCopy/2.3     2) binutils/2.38     3) libevent/2.1.12     4) zlib/1.2.12
+
+The following have been reloaded with a version change:
+  1) GCCcore/11.3.0 => GCCcore/12.2.0
+
+mpi_mm has started with 8 tasks.
+Initializing arrays...
+Sending 147 rows to task 1 offset=0
+Sending 147 rows to task 2 offset=147
+Sending 146 rows to task 3 offset=294
+Sending 146 rows to task 4 offset=440
+Sending 146 rows to task 5 offset=586
+Sending 146 rows to task 6 offset=732
+Sending 146 rows to task 7 offset=878
+Received results from task 1
+Received results from task 2
+Received results from task 3
+Received results from task 4
+Received results from task 5
+Received results from task 6
+Received results from task 7
+******************************************************
+Master Times:
+Whole Computation Time: 1.365749 
+Master Initialization Time: 0.008689 
+Master Send and Receive Time: 1.357038 
+
+******************************************************
+******************************************************
+Worker Times:
+Worker Receive Time Max: 0.030600 
+Worker Receive Time Min: 0.011995 
+Worker Receive Time Average: 0.021182 
+Worker Calculation Time Max: 1.337596 
+Worker Calculation Time Min: 1.206949 
+Worker Calculation Time Average: 1.260668 
+Worker Send Time Max: 0.075399 
+Worker Send Time Min: 0.000393 
+Worker Send Time Average: 0.021019 
+
+******************************************************
+JOBID        NAME                 USER                     PARTITION              NODES  CPUS  STATE        TIME         TIME_LEFT    START_TIME        REASON                   NODELIST
+19824301     JobName              jorgeoliver909           short                  1      8     RUNNING      0:55         14:05        2026-09-23T11:48  None                     c300
